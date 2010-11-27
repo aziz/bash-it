@@ -16,4 +16,8 @@ GIT_THEME_PROMPT_SUFFIX=""
 
 RVM_THEME_PROMPT_PREFIX=""
 RVM_THEME_PROMPT_SUFFIX=""
+<<<<<<< HEAD
+=======
+
+>>>>>>> added my old aliases and blanked scm_non_char
 SCM_NONE_CHAR=''

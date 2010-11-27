@@ -27,9 +27,12 @@ alias rtu='rake test:units'
 alias rtf='rake test:functionals'
 alias rti='rake test:integration'
 alias a='autotest -rails'
+<<<<<<< HEAD
 alias rr='rake routes'
 alias rdbm='rake db:migrate'
 alias rdbr='rake db:rollback'
+=======
+>>>>>>> added my old aliases and blanked scm_non_char
 
 
 function rails-help() {

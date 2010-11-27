@@ -47,6 +47,7 @@ done
 
 
 unset config_file
+<<<<<<< HEAD
 if [[ $PROMPT ]]; then
     export PS1=$PROMPT
 fi
@@ -56,7 +57,13 @@ PREVIEW="less"
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
 [ -s /Applications/Apple/Preview.app ] && PREVIEW="/Applications/Apple/Preview.app"
 
+<<<<<<< HEAD
 export PS1=$PROMPT
+=======
+=======
+export PS1=$PROMPT
+>>>>>>> added my old aliases and blanked scm_non_char
+>>>>>>> added my old aliases and blanked scm_non_char
 
 #
 # Custom Help
