@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# pressing ctrl+l will trigger ll
+bind -x '"\C-l":"ll"'
+
 # List directory contents
 alias sl=ls
 alias ls='ls -G'        # Compact view, show colors
@@ -7,6 +10,7 @@ alias la='ls -AF'       # Compact view, show hidden
 alias ll='ls -al'
 alias l='ls -a'
 alias l1='ls -1'
+alias w='which'
 
 if [ $(uname) = "Linux" ]
 then
@@ -36,7 +40,8 @@ alias -- -="cd -"       # Go back
 alias h='history'
 
 # Tree
-alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias treee="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias tree='tree -CA'
 
 # Directory
 alias	md='mkdir -p'

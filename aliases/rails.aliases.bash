@@ -18,6 +18,16 @@ alias restartapp='touch tmp/restart.txt'
 alias restart='touch tmp/restart.txt'  # restart passenger
 alias devlog='tail -f log/development.log'
 alias taild='tail -f log/development.log' # tail dev log
+alias migrate='rake db:migrate db:test:clone'
+
+# rake
+alias rake='rake --rakelibdir ~/.rake/'
+alias rt='rake test'
+alias rtu='rake test:units'
+alias rtf='rake test:functionals'
+alias rti='rake test:integration'
+alias a='autotest -rails'
+
 
 function rails-help() {
   echo "Rails Aliases Usage"

@@ -2,7 +2,7 @@
 # Initialize Bash It
 
 # Reload Library
-alias reload='source ~/.bash_profile'
+alias reload='source ~/.bash_profile && echo "bash_profile reloaded"'
 
 # Load the framework
 
@@ -48,13 +48,6 @@ done
 
 unset config_file
 export PS1=$PROMPT
-
-
-# Adding Support for other OSes
-PREVIEW="less"
-[ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
-[ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app"
-
 
 #
 # Custom Help
