@@ -49,6 +49,7 @@ done
 unset config_file
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if [[ $PROMPT ]]; then
     export PS1=$PROMPT
 fi
@@ -68,8 +69,12 @@ export PS1=$PROMPT
 >>>>>>> added my old aliases and blanked scm_non_char
 =======
 =======
+=======
+>>>>>>> added my old aliases and blanked scm_non_char
 export PS1=$PROMPT
 =======
+=======
+>>>>>>> added my old aliases and blanked scm_non_char
 if [[ $PROMPT ]]; then
     export PS1=$PROMPT
 fi
@@ -79,9 +84,21 @@ PREVIEW="less"
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
 [ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app"
 
+<<<<<<< HEAD
 >>>>>>> Allow theming to be disabled (eg for old terminals)
+<<<<<<< HEAD
 >>>>>>> Allow theming to be disabled (eg for old terminals)
+<<<<<<< HEAD
 >>>>>>> Allow theming to be disabled (eg for old terminals)
+=======
+=======
+=======
+=======
+export PS1=$PROMPT
+>>>>>>> added my old aliases and blanked scm_non_char
+>>>>>>> added my old aliases and blanked scm_non_char
+>>>>>>> added my old aliases and blanked scm_non_char
+>>>>>>> added my old aliases and blanked scm_non_char
 
 #
 # Custom Help
