@@ -54,3 +54,7 @@ function git_info() {
     fi
 }
 
+# Stage deleted files for git
+function gitrm() {
+  for x in `git status | grep deleted | awk '{print $3}'`; do git rm $x; done
+}
