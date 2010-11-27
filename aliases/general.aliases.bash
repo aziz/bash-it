@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # pressing ctrl+l will trigger ll
+<<<<<<< HEAD
 # bind -x '"\C-l":"ll"'
+=======
+bind -x '"\C-l":"ll"'
+>>>>>>> added my old aliases and blanked scm_non_char
 
 # List directory contents
 alias sl=ls
