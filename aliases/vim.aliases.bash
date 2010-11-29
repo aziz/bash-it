@@ -1,4 +1,5 @@
 #!/bin/bash
 
-alias v='mvim --remote-tab'
+alias mv='mvim --remote-tab'
+alias v='vim'
 alias vi='vim'
