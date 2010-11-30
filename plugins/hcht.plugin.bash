@@ -15,10 +15,14 @@
 # 
 # hcht was fitted to work at your terminal. 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # your daily stuff like notices, todos, commands or output from a command. 
 =======
 # your daily stuff like notices, todos, commands or output from a 
 >>>>>>> added handmade commandline history tool
+=======
+# your daily stuff like notices, todos, commands or output from a command. 
+>>>>>>> fixed readme
 # all these things will be stored without complex syntax. 
 # 
 # once you defined your storing-directory you will be able to easily
@@ -28,9 +32,12 @@
 ### create a file
 # the basic feature. open a file, do stuff and save.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # *.hch trailor is required.
 >>>>>>> added handmade commandline history tool
+=======
+>>>>>>> fixed readme
 #
 # $ hcht evilcommand.hch
 #
