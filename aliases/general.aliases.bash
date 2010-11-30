@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pressing ctrl+l will trigger ll
-bind -x '"\C-l":"ll"'
+# bind -x '"\C-l":"ll"'
 
 # List directory contents
 alias sl=ls
