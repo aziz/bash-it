@@ -1,9 +1,13 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 # hcht.plugin.bash: the handmade commandline history tool
 =======
 # hch.plugin.bash: the handmade commandline history tool
 >>>>>>> added handmade commandline history tool
+=======
+# hcht.plugin.bash: the handmade commandline history tool
+>>>>>>> moved config of hcht to bash_profile template
 # Copyright: (C) 2010 Florian Baumann <flo@noqqe.de>
 # License: GPL-3 <http://www.gnu.org/licenses/gpl-3.0.txt>
 # Date: Dienstag 2010-11-30
@@ -72,12 +76,15 @@
 # "anylog" will be the name of the saved file.  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### configure store dir
 # like /home/user/.hcht/ or something
 hchtstoredir=""
 
 >>>>>>> added handmade commandline history tool
+=======
+>>>>>>> moved config of hcht to bash_profile template
 hcht() {
     # configured?
     if [ -z $hchtstoredir ]; then
