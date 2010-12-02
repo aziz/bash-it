@@ -16,6 +16,7 @@ alias gup='git fetch && git rebase'
 alias gp='git push'
 alias gpo='git push origin'
 alias gdv='git diff -w "$@" | vim -R -'
+alias gd='git diff'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
@@ -28,13 +29,13 @@ alias gdel='git branch -D'
 
 case $OSTYPE in
   linux*)
-    alias gd='git diff | vim -R -'
+    alias gdd='git diff | vim -R -'
     ;;
   darwin*)
-    alias gd='git diff | mate'
+    alias gdd='git diff | mate'
     ;;
   darwin*)
-    alias gd='git diff'
+    alias gdd='git diff'
     ;;
 esac
 
