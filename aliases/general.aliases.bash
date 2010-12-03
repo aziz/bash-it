@@ -34,6 +34,10 @@ alias piano="pianobar"
 
 alias ..='cd ..'        # Go up one directory
 alias ...='cd ../..'    # Go up two directories
+alias u='cd ..'
+alias uu='cd ../..'
+alias uuu='cd ../../..'
+alias uuuu='cd ../../../..'
 alias -- -="cd -"       # Go back
 
 # Shell History
