@@ -55,7 +55,10 @@ If you are submitting a pull request, please add your name to the list.
 * [Mark Szymanski][mrman208]
 * [Florian Baumann][noqqe]
 * [Andy Shen][shenie]
+<<<<<<< HEAD
 * [John Schulz][jfsiii]
+=======
+>>>>>>> update credit
 
 [revans]: http://github.com/revans
 [zerobearing2]: http://github.com/zerobearing2
@@ -65,5 +68,8 @@ If you are submitting a pull request, please add your name to the list.
 [mrman208]: http://github.com/mrman208
 [noqqe]: http://github.com/noqqe
 [shenie]: http://github.com/shenie
+<<<<<<< HEAD
 [jfsiii]: http://github.com/jfsiii
+=======
+>>>>>>> update credit
 
