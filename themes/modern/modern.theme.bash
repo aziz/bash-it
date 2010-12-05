@@ -1,6 +1,7 @@
 SCM_THEME_PROMPT_PREFIX=""
 SCM_THEME_PROMPT_SUFFIX=""
 
+<<<<<<< HEAD
 SCM_THEME_PROMPT_DIRTY=' ${bold_red}✗${normal}'
 SCM_THEME_PROMPT_CLEAN=' ${bold_green}✓${normal}'
 SCM_GIT_CHAR='${bold_green}±${normal}'
@@ -16,6 +17,8 @@ is_vim_shell() {
 	fi
 }
 
+=======
+>>>>>>> Added modern theme
 modern_scm_prompt() {
 	CHAR=$(scm_char)
 	if [ $CHAR = $SCM_NONE_CHAR ]
@@ -29,6 +32,7 @@ modern_scm_prompt() {
 prompt() {
 	if [ $? -ne 0 ]
 	then
+<<<<<<< HEAD
 		# Yes, the indenting on these is weird, but it has to be like
 		# this otherwise it won't display properly.
 
@@ -36,12 +40,21 @@ prompt() {
 ${bold_red}└─▪${normal} "
 	else
 		PS1="┌─$(modern_scm_prompt)[${cyan}\W${normal}]$(is_vim_shell)
+=======
+		PS1="${bold_red}┌─${reset_color}$(modern_scm_prompt)[\W]
+${bold_red}└─▪${normal} "
+	else
+		PS1="┌─$(modern_scm_prompt)[\W]
+>>>>>>> Added modern theme
 └─▪ "
 	fi
 }
 
+<<<<<<< HEAD
 PS2="└─▪ "
 
+=======
+>>>>>>> Added modern theme
 
 
 PROMPT_COMMAND=prompt
