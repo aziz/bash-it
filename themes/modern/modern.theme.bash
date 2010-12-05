@@ -39,6 +39,7 @@ prompt() {
 	if [ $? -ne 0 ]
 	then
 <<<<<<< HEAD
+<<<<<<< HEAD
 		# Yes, the indenting on these is weird, but it has to be like
 		# this otherwise it won't display properly.
 
@@ -52,6 +53,12 @@ ${bold_red}└─▪${normal} "
 	else
 		PS1="┌─$(modern_scm_prompt)[\W]
 >>>>>>> Added modern theme
+=======
+		PS1="${bold_red}┌─${reset_color}$(modern_scm_prompt)[${cyan}\W${normal}]
+${bold_red}└─▪${normal} "
+	else
+		PS1="┌─$(modern_scm_prompt)[${cyan}\W${normal}]
+>>>>>>> Added more colors to 'modern' theme
 └─▪ "
 	fi
 }
