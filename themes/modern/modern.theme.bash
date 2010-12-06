@@ -64,10 +64,15 @@ ${bold_red}└─▪${normal} "
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 PS2="└─▪ "
 
 =======
 >>>>>>> Added modern theme
+=======
+PS2="└─▪ "
+
+>>>>>>> Added PS2 to modern theme
 
 
 PROMPT_COMMAND=prompt
