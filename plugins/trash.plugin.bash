@@ -1,10 +1,6 @@
-#!/bin/sh -c 'echo This file is meant to be sourced.'
+#!/bin/sh
 
-alias rm='del'
-    # make rm(1) safe.
-
-function del ()
-{
+function del () {
     if declare -F trash >/dev/null
     then
         trash "$@"
@@ -13,8 +9,7 @@ function del ()
     fi
 }
 
-function trashOnDevice ()
-{
+function trashOnDevice () {
     local DEVICE="$1"
     local MOUNT="$(mount | sed -n 's:/dev/'"$DEVICE"' on \(.*\) (.*):\1:p')"
     
@@ -31,8 +26,7 @@ function trashOnDevice ()
     echo "$MOUNT/.Trashes/$UID"
 }
 
-function trash ()
-{
+function trash () {
     local F
     local HOME_DEVICE="$(stat -f %Sd "$HOME")"
     local TRASHCAN=~/.Trash
@@ -87,8 +81,7 @@ function trash ()
     echo "${TRASHSIZE:-  0B} in trash on $TRASHCANloc."
 }
 
-function emptytrash ()
-{
+function emptytrash () {
     local TMPIFS="$IFS"
     IFS='
 '
