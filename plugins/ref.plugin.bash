@@ -42,10 +42,15 @@
 # array
 # select
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 # I hope that you like this plugin and if you have any questions about it, send me (mrman208) a message on GitHub or email me at mrman208@me.com
 =======
 >>>>>>> Added 'new' command for ref.
+=======
+#
+# I hope that you like this plugin and if you have any questions about it, send me (mrman208) a message on GitHub or email me at mrman208@me.com
+>>>>>>> change chmod for colors.bash and comments cleanup for ref plugin
 #####################################################################################################################################################################
 
 ref() {
@@ -57,6 +62,9 @@ ref() {
   REF_DIR=${REF_DIR%/}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> change chmod for colors.bash and comments cleanup for ref plugin
   if [ "$1" = 'ls' ]
   then
     if [ "$2" = '' ]
@@ -72,6 +80,7 @@ ref() {
       return
     fi
   fi
+<<<<<<< HEAD
 =======
 	builtin cd $REF_DIR
 
@@ -95,6 +104,8 @@ ref() {
 		return
 	fi
 >>>>>>> Added 'new' command for ref.
+=======
+>>>>>>> change chmod for colors.bash and comments cleanup for ref plugin
 
   DIR="${1}/${2}"
 
