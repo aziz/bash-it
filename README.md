@@ -56,9 +56,13 @@ If you are submitting a pull request, please add your name to the list.
 * [Florian Baumann][noqqe]
 * [Andy Shen][shenie]
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [John Schulz][jfsiii]
 =======
 >>>>>>> update credit
+=======
+* [John Schulz][jfsiii]
+>>>>>>> Didn't see the instructions to add myself to `README.md`. My pull request (#23) was accepted in 6c975853292f6d897c871c51149a63ec62abd0b6
 
 [revans]: http://github.com/revans
 [zerobearing2]: http://github.com/zerobearing2
@@ -69,7 +73,11 @@ If you are submitting a pull request, please add your name to the list.
 [noqqe]: http://github.com/noqqe
 [shenie]: http://github.com/shenie
 <<<<<<< HEAD
+<<<<<<< HEAD
 [jfsiii]: http://github.com/jfsiii
 =======
 >>>>>>> update credit
+=======
+[jfsiii]: http://github.com/jfsiii
+>>>>>>> Didn't see the instructions to add myself to `README.md`. My pull request (#23) was accepted in 6c975853292f6d897c871c51149a63ec62abd0b6
 
