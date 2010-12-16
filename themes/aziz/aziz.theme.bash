@@ -5,7 +5,7 @@ SCM_THEME_PROMPT_PREFIX=" "
 SCM_THEME_PROMPT_SUFFIX=" "
 
 
-PROMPT="\[${bold_yellow}\]\w\[${bold_blue}\] \[\$(scm_char)\]\[\$(scm_prompt_info)\]\[\[${normal}\]\[${reset_color}\]→ "
+PROMPT="\[${bold_yellow}\]\w\[${bold_blue}\] \[\$(scm_char)\]\[\$(scm_prompt_info)\]\[${normal}\]\[${reset_color}\]→ "
 
 
 # git theming
