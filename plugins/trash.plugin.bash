@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function del () {
     if declare -F trash >/dev/null
