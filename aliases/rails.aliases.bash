@@ -27,6 +27,9 @@ alias rtu='rake test:units'
 alias rtf='rake test:functionals'
 alias rti='rake test:integration'
 alias a='autotest -rails'
+alias rr='rake routes'
+alias rdbm='rake db:migrate'
+alias rdbr='rake db:rollback'
 
 
 function rails-help() {
