@@ -47,10 +47,6 @@ done
 
 
 unset config_file
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 if [[ $PROMPT ]]; then
     export PS1=$PROMPT
 fi
@@ -60,24 +56,6 @@ PREVIEW="less"
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
 [ -s /Applications/Apple/Preview.app ] && PREVIEW="/Applications/Apple/Preview.app"
 
-<<<<<<< HEAD
-export PS1=$PROMPT
-=======
-=======
-export PS1=$PROMPT
->>>>>>> added my old aliases and blanked scm_non_char
-<<<<<<< HEAD
->>>>>>> added my old aliases and blanked scm_non_char
-=======
-=======
-=======
->>>>>>> added my old aliases and blanked scm_non_char
-export PS1=$PROMPT
-=======
-=======
->>>>>>> added my old aliases and blanked scm_non_char
-=======
->>>>>>> fixed wrong alias that overrided mv command
 if [[ $PROMPT ]]; then
     export PS1=$PROMPT
 fi
@@ -87,28 +65,6 @@ PREVIEW="less"
 [ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
 [ -s /Applications/Apple/Preview.app ] && PREVIEW="/Applications/Apple/Preview.app"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> Allow theming to be disabled (eg for old terminals)
-<<<<<<< HEAD
->>>>>>> Allow theming to be disabled (eg for old terminals)
-<<<<<<< HEAD
->>>>>>> Allow theming to be disabled (eg for old terminals)
-=======
-=======
-=======
-=======
-export PS1=$PROMPT
->>>>>>> added my old aliases and blanked scm_non_char
->>>>>>> added my old aliases and blanked scm_non_char
->>>>>>> added my old aliases and blanked scm_non_char
-<<<<<<< HEAD
->>>>>>> added my old aliases and blanked scm_non_char
-=======
-=======
-export PS1=$PROMPT
->>>>>>> fixed wrong alias that overrided mv command
->>>>>>> fixed wrong alias that overrided mv command
 
 #
 # Custom Help

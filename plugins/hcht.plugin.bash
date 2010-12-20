@@ -1,13 +1,5 @@
 #!/bin/bash
-<<<<<<< HEAD
-<<<<<<< HEAD
 # hcht.plugin.bash: the handmade commandline history tool
-=======
-# hch.plugin.bash: the handmade commandline history tool
->>>>>>> added handmade commandline history tool
-=======
-# hcht.plugin.bash: the handmade commandline history tool
->>>>>>> moved config of hcht to bash_profile template
 # Copyright: (C) 2010 Florian Baumann <flo@noqqe.de>
 # License: GPL-3 <http://www.gnu.org/licenses/gpl-3.0.txt>
 # Date: Dienstag 2010-11-30
@@ -18,15 +10,7 @@
 # applications can do this much better. but storing things from commandline? 
 # 
 # hcht was fitted to work at your terminal. 
-<<<<<<< HEAD
-<<<<<<< HEAD
 # your daily stuff like notices, todos, commands or output from a command. 
-=======
-# your daily stuff like notices, todos, commands or output from a 
->>>>>>> added handmade commandline history tool
-=======
-# your daily stuff like notices, todos, commands or output from a command. 
->>>>>>> fixed readme
 # all these things will be stored without complex syntax. 
 # 
 # once you defined your storing-directory you will be able to easily
@@ -35,13 +19,6 @@
 
 ### create a file
 # the basic feature. open a file, do stuff and save.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# *.hch trailor is required.
->>>>>>> added handmade commandline history tool
-=======
->>>>>>> fixed readme
 #
 # $ hcht evilcommand.hch
 #
@@ -75,16 +52,6 @@
 #
 # "anylog" will be the name of the saved file.  
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-### configure store dir
-# like /home/user/.hcht/ or something
-hchtstoredir=""
-
->>>>>>> added handmade commandline history tool
-=======
->>>>>>> moved config of hcht to bash_profile template
 hcht() {
     # configured?
     if [ -z $hchtstoredir ]; then
