@@ -29,10 +29,10 @@ echo Table for 16-color terminal escape sequences.
 echo Replace ESC with \\033 in bash.
 echo
 echo "Background | Foreground colors"
-echo "---------------------------------------------------------------------"
+echo ""
 for((bg=40;bg<=47;bg++)); do
    for((bold=0;bold<=1;bold++)) do
-      echo -en "\033[0m"" ESC[${bg}m   | "
+      echo -en "\033[0m"" ESC[${bg}m    "
       for((fg=30;fg<=37;fg++)); do
          if [ $bold == "0" ]; then
             echo -en "\033[${bg}m\033[${fg}m [${fg}m  "
@@ -42,7 +42,7 @@ for((bg=40;bg<=47;bg++)); do
       done
       echo -e "\033[0m"
    done
-   echo "--------------------------------------------------------------------- "
+echo ""
 done
  
 echo
