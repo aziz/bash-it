@@ -31,6 +31,9 @@ alias rr='rake routes'
 alias rdbm='rake db:migrate'
 alias rdbr='rake db:rollback'
 
+# rubygems
+alias gemo='gem outdated'
+
 # bundler
 alias b="bundle"
 alias bi="b install --path vendor"
