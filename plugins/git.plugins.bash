@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Usage: new-github topfunky tidy_table
+function new_github() {
+  git remote add origin git@github.com:$1/$2.git
+  git push -u origin master
+}
+
 function git_remote {
   echo "Running: git remote add origin ${GIT_HOSTING}:$1.git"
   git remote add origin $GIT_HOSTING:$1.git
