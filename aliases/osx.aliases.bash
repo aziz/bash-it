@@ -1,7 +1,9 @@
 #!/bin/bash
 
-alias machide="chflags hidden"
-alias macshow="chflags nohidden"
+alias desktop_hide="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias desktop_show="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+alias mac_hide="chflags hidden"
+alias mac_show="chflags nohidden"
 
 # Desktop Programs
 alias fireworks="open -a '/Applications/Adobe Fireworks CS3/Adobe Fireworks CS3.app'"
